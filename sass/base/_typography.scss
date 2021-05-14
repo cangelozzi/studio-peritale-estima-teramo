@@ -7,14 +7,14 @@ body {
 }
 
 .heading-primary {
-  margin-top: 10rem;
+  margin-top: 20rem;
   color: $color-white;
   backface-visibility: hidden; /* fix animation shaking issue */
   margin-bottom: 6rem;
 
   &--main {
     display: block;
-    font-size: 6rem;
+    font-size: 9rem;
     font-weight: 600;
     letter-spacing: 1rem;
     text-transform: uppercase;
@@ -29,9 +29,9 @@ body {
   &--sub {
     margin-top: 5rem;
     display: block;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
-    letter-spacing: .5rem;
+    letter-spacing: .45rem;
     animation: moveInRight 2s ease-out;
 
     @include respond(phone) {
@@ -41,7 +41,7 @@ body {
 } // END of .heading-primary
 
 .heading-secondary {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   font-weight: 700;
   text-transform: uppercase;
   display: inline-block;

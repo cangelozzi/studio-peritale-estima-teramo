@@ -1,8 +1,8 @@
 .footer {
-  background-color: $color-grey-dark-3;
   padding: 1rem 0;
   font-size: 1.4rem;
   color: $color-grey-light-1;
+  background-color: $color-white;
 
   @include respond(tab_Port) {
     padding: 1rem 0;

@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
-  <title>Estima</title>
+  <title>Studio Peritale Estima</title>
 </head>
 
 <body>
@@ -21,12 +21,13 @@
   <!-- NAVIGATION TOGGLE BUTTON -->
   <div class="navigation">
     <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-    <label for="navi-toggle" class="navigation__button">
+    <label for="navi-toggle" class="navigation__button" id="navi-btn">
       <span class="navigation__icon">&nbsp;</span>
     </label>
     <div class="navigation__background">&nbsp;</div>
     <nav class="navigation__nav">
       <ul class="navigation__list">
+        <li class="navigation__item"><a href="#home" class="navigation__link">Home</a></li>
         <li class="navigation__item"><a href="#valori" class="navigation__link">Valori</a></li>
         <li class="navigation__item"><a href="#servizi" class="navigation__link">Servizi</a></li>
         <li class="navigation__item"><a href="#notizie" class="navigation__link">Notizie</a></li>
@@ -36,20 +37,28 @@
   </div>
 
 
-  <!-- HEADER -->
-  <header class="header">
-
-    <!-- LOGO -->
+  <!-- LOGO -->
     <div class="header__logo-box">
-      <img src="img/logo-white.png" alt="Logo White" class="header__logo">
+      <img src="img/logo.jpg" alt="Logo White" class="header__logo">
     </div>
+
+  <!-- HEADER -->
+  <header class="header" id="home">
 
     <!-- PRIMARY HEADING -->
     <div class="header__text-box">
       <h1 class="heading-primary">
-        <span class="heading-primary--main">Studio Peritale</span>
+        <span class="heading-primary--sub">Studio Peritale</span>
         <span class="heading-primary--main">Estima</span>
         <span class="heading-primary--sub">Professionisti al vostro servizio</span>
+
+        <div>
+            <h3 style="color: white;">Via Tevere, 38 - 64100 Teramo</h3>
+        </div>
+
+        <div>
+            <a href="tel:0861-211429" style="color: white;text-decoration: navajowhite;font-size: 2rem;">Tel: 0861-211429</a>
+        </div>
       </h1>
     </div>
 
@@ -168,14 +177,14 @@
         </video>
       </div>
 
-      <div class="u-center-text u-margin-bottom-big">
+      <!-- <div class="u-center-text u-margin-bottom-big">
         <h2 class="heading-secondary">Rendiamo le persone veramente felici</h2>
-      </div>
+      </div> -->
 
       <div class="row">
         <div class="story">
           <figure class="story__shape">
-            <img src="img/nat-8.jpg" alt="Person On a Tour" class="story__img">
+            <!-- <img src="img/nat-8.jpg" alt="Person On a Tour" class="story__img"> -->
             <figcaption class="story__caption">Notizia 1</figcaption>
           </figure>
           <div class="story__text">
@@ -190,7 +199,7 @@
       <div class="row">
         <div class="story">
           <figure class="story__shape">
-            <img src="img/nat-9.jpg" alt="Second Person On a Tour" class="story__img">
+            <!-- <img src="img/nat-9.jpg" alt="Second Person On a Tour" class="story__img"> -->
             <figcaption class="story__caption">Notizia 2</figcaption>
           </figure>
           <div class="story__text">
@@ -208,16 +217,21 @@
     <section class="section-book"  id="contatti">
 
       <div class="row">
-        <div class="contatti">
-          <div class="">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2933.88217326219!2d13.71604281530226!3d42.66385222385488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1331e7fa8bf0fd8b%3A0x4bf25e6266015b8c!2sVia%20Tevere%2C%2038%2C%2064100%20Teramo%20TE!5e0!3m2!1sen!2sit!4v1620544472859!5m2!1sen!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          </div>
-          <div>
-              <h1 class="heading-primary--sub u-margin-bottom-big" style="color: white;">Studio Peritale Estima</h1>
-              <h2 class="heading-primary--sub" style="color: white;">Via Tevere, 38</h2>
-              <h2 class="heading-primary--sub u-margin-bottom-small" style="color: white;">64100 Teramo</h2>
-              <h3 class="heading-primary--sub u-margin-bottom-small" style="color: white;">P.Iva 01960880670</h3>
-          </div>
+        <h1 class="heading-primary--main" style="color: white; text-align:center; margin-bottom: 4rem;">Contatti</h1>
+
+        <div class="heading-tertiary" style="color: white; text-align:center">
+            <h3 style="color: white; text-align:center">Via Tevere, 38 - 64100 Teramo</h3>
+        </div>
+
+        <div class="heading-tertiary" style="color: white; text-align:center">
+          <a href="tel:0861-211429" style="color: white;text-decoration: none; font-size: 2rem;">Tel: 0861-211429</a>
+        </div>
+
+        <div style="color: white; text-align:center; margin-bottom: 4rem;">
+          <a href="mailto: studioperitale.estima@gmail.com" style="color: white;text-decoration: none; font-size: 2rem;">studioperitale.estima@gmail.com</a>
+        </div>
+        <div class="">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2933.88217326219!2d13.71604281530226!3d42.66385222385488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1331e7fa8bf0fd8b%3A0x4bf25e6266015b8c!2sVia%20Tevere%2C%2038%2C%2064100%20Teramo%20TE!5e0!3m2!1sen!2sit!4v1620544472859!5m2!1sen!2sit" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
       </div>
 
@@ -229,19 +243,35 @@
   <footer class="footer">
     <div class="footer__logo-box">
 
-      <!-- RESPONSIVE IMAGE SETUP EXAMPLE -->
-
-      <!-- <picture class="footer__logo">
-        <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" media="(max-width: 37.5em)">
-          <img srcset="img/logo-green-2x.png 1x, img/logo-green-2x.png 2x" alt="logo footer" src="img/logo-green-small-2x.png">
-      </picture> -->
-
     <div class="row">
+      <!-- LOGO -->
       <div>
-        <p>&copy; 2021 - Studio Peritale Estima</p>
+        <a href="#home"><img style="width: 30%;" src="img/logo.jpg" alt="Logo"></a>
       </div>
+
+      <div style="margin-bottom: 2rem;">
+        <h3 style="color: black;">&copy; 2021 - Studio Peritale Estima</h3>
+      </div>
+
+      <div>
+        <h3 style="color: black;">Via Tevere, 38 - 64100 Teramo</h3>
+      </div>
+
+      <div>
+        <h3 style="color: black;">P.Iva 01960880670</h3>
+      </div>
+
   </footer>
 
+  <script>
+    const navLinks = document.querySelectorAll(".navigation__link");
+
+    navLinks.forEach(link => {
+        link.addEventListener("click", () => {
+            document.getElementById("navi-toggle").checked = !document.getElementById("navi-toggle").checked
+        });
+    });
+  </script>
 </body>
 
 </html>
