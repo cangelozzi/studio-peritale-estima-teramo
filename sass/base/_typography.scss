@@ -10,7 +10,7 @@ body {
   margin-top: 20rem;
   color: $color-white;
   backface-visibility: hidden; /* fix animation shaking issue */
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 
   &--main {
     display: block;
@@ -27,7 +27,7 @@ body {
   }
 
   &--sub {
-    margin-top: 5rem;
+    margin-top: .5rem;
     display: block;
     font-size: 4rem;
     font-weight: 700;

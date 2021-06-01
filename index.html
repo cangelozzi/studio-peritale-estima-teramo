@@ -14,6 +14,15 @@
   <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
   <title>Studio Peritale Estima</title>
+
+  <style>
+      #cookieChoiceInfo {
+          font-size: 1.5rem;
+      }
+      #cookieChoiceDismiss {
+          /*! margin-left: 24px; */ display: block; text-align: center !important; margin-top: 8px; background-color: lightgreen;text-decoration: none;font-size: 2rem; border-radius: 50%; margin-top: 5rem;color: black;
+      }
+  </style>
 </head>
 
 <body>
@@ -48,19 +57,27 @@
     <!-- PRIMARY HEADING -->
     <div class="header__text-box">
       <h1 class="heading-primary">
-        <span class="heading-primary--sub">Studio Peritale</span>
+        <span class="heading-primary--sub" style="margin-bottom: -2rem;">Studio Peritale</span>
         <span class="heading-primary--main">Estima</span>
-        <span class="heading-primary--sub">Professionisti al vostro servizio</span>
-
-        <div>
-            <h3 style="color: white;">Via Tevere, 38 - 64100 Teramo</h3>
-        </div>
+        <span class="heading-primary--sub" style="margin-top: -2.5rem; margin-bottom: 2rem;">Infortunistica stradale</span>
 
         <div>
             <a href="tel:0861-211429" style="color: white;text-decoration: navajowhite;font-size: 2rem;">Tel: 0861-211429</a>
         </div>
         <div>
             <a href="fax:0861-1992010" style="color: white;text-decoration: navajowhite;font-size: 2rem;">Fax: 0861-1992010</a>
+        </div>
+        <div style="margin-bottom: 2rem;">
+            <a href="https://wa.me/393450711011" style="color: white;text-decoration: navajowhite;font-size: 2rem; ">Contattaci su WhatsApp: 345-0711011</a>
+        </div>
+        <div style="color: white; text-align:center;">
+          <a href="mailto: studioperitale.estima@gmail.com" style="color: white;text-decoration: none; font-size: 2rem;">Email: studioperitale.estima@gmail.com</a>
+        </div>
+        <div style="color: white; text-align:center; margin-bottom: 4rem;">
+          <a href="mailto: studio.estima@pec.it" style="color: white;text-decoration: none; font-size: 2rem;">PEC: studio.estima@pec.it</a>
+        </div>
+        <div>
+            <h3 style="color: white;">Via Tevere, 38 - 64100 Teramo</h3>
         </div>
       </h1>
     </div>
@@ -79,21 +96,16 @@
       <div class="row">
         <div class="col-1-of-2">
           <h3 class="heading-tertiary u-margin-bottom-small">Professionalità</h3>
-          <p class="paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia similique mollitia impedit quisquam, sit in quidem vero
-            ea aperiam expedita hic incidunt eligendi dolore. Et eos voluptates nulla minima omnis.
-          </p>
+          <p class="paragraph">Avvalendosi di personale preparato e qualificato, possiamo permetterci prestazioni personalizzate ed un servizio completo.</p>
 
           <h3 class="heading-tertiary u-margin-bottom-small">Competenza</h3>
           <p class="paragraph">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates ullam consectetur quia, minus quo inventore rerum quibusdam
-            nobis iusto qui numquam.
+            Negli anni ci siamo distinti per l’elevata competenza e professionalità, la nostra innata vocazione alla consulenza ci porta a seguire il cliente dalla semplice richiesta di informazioni iniziale, fino a tutto l’iter relativo all'infortunistica stradale.
           </p>
 
           <h3 class="heading-tertiary u-margin-bottom-small">Responsabilità</h3>
           <p class="paragraph">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates ullam consectetur quia, minus quo inventore rerum quibusdam
-            nobis iusto qui numquam.
+            Il nostro impegno principale va al cliente che potrà contare sulla nostra dedizione e senso di responsabilità."
           </p>
         </div>
 
@@ -232,9 +244,14 @@
         <div class="heading-tertiary" style="color: white; text-align:center">
            <a href="fax:0861-1992010" style="color: white;text-decoration: navajowhite;font-size: 2rem;">Fax: 0861-1992010</a>
         </div>
-
+        <div style="color: white; text-align:center; ">
+            <a href="https://wa.me/393450711011" style="color: white;text-decoration: navajowhite;font-size: 2rem;">Contattaci su WhatsApp: 345-0711011</a>
+        </div>
+        <div style="color: white; text-align:center; ">
+          <a href="mailto: studioperitale.estima@gmail.com" style="color: white;text-decoration: none; font-size: 2rem;">Email: studioperitale.estima@gmail.com</a>
+        </div>
         <div style="color: white; text-align:center; margin-bottom: 4rem;">
-          <a href="mailto: studioperitale.estima@gmail.com" style="color: white;text-decoration: none; font-size: 2rem;">studioperitale.estima@gmail.com</a>
+          <a href="mailto: studio.estima@pec.it" style="color: white;text-decoration: none; font-size: 2rem; margin-bottom: 4rem;">PEC: studio.estima@pec.it</a>
         </div>
         <div class="">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2933.88217326219!2d13.71604281530226!3d42.66385222385488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1331e7fa8bf0fd8b%3A0x4bf25e6266015b8c!2sVia%20Tevere%2C%2038%2C%2064100%20Teramo%20TE!5e0!3m2!1sen!2sit!4v1620544472859!5m2!1sen!2sit" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -269,7 +286,18 @@
 
   </footer>
 
+  <script src="/cookiechoices.js"></script>
   <script>
+
+    // handling cookies privacy
+    document.addEventListener('DOMContentLoaded', function(event) {
+        cookieChoices.showCookieConsentDialog(
+            'Questo sito fa uso di cookie per migliorare l’esperienza di navigazione degli utenti e per raccogliere informazioni sull’utilizzo del sito stesso. Possibile utilizzo: sia cookie tecnici sia cookie di parti terze. Può conoscere i dettagli consultando la nostra privacy policy qui. Proseguendo nella navigazione si accetta l’uso dei cookie; in caso contrario è possibile abbandonare il sito.',
+            'Chiudi',
+            'Cosa sono i cookies?', 'https://policies.google.com/technologies/cookies?hl=it');
+    });
+
+   // event on navbar
     const navLinks = document.querySelectorAll(".navigation__link");
 
     navLinks.forEach(link => {
